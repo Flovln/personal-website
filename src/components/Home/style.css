@@ -1,0 +1,77 @@
+h1 {
+   font-size: 1.3rem;
+   font-weight: 400;
+}
+
+h2 {
+   font-size: 1rem;
+   font-weight: 400;
+}
+
+h3 {
+   font-size: .8rem;
+   font-weight: 400;
+}
+
+p {
+   color: #757575;
+   font-size: .8rem;
+}
+
+.home {
+   display: flex;
+   flex-direction: column;
+   margin: 2rem 8vw 0 8vw;
+}
+
+.home-container h1 {
+   font-weight: 700;
+}
+
+.home-container h2 {
+   background-color: #f2f2f2;
+   padding-left: 0.3em;
+}
+
+.home-container p {
+   padding-left: 0.3rem;
+}
+
+.home-container {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   padding: 1rem;
+}
+
+.home-container .column:first-child {
+   flex: 1;
+   margin: 1rem;
+   min-width: 8rem;
+}
+
+.home-container .column:nth-child(2) {
+   flex: 2;
+   margin: 1rem;
+   min-width: 15rem;
+}
+
+.home-container .column:nth-child(3) {
+   flex: 2;
+   margin: 1rem;
+   min-width: 15rem;
+}
+
+@media all and (min-width: 1500px) {
+   .home {
+      margin: 2rem 8rem 0 8rem;
+   }
+}
+
+@media all and (max-width: 700px) {
+   .home-container {
+      flex-direction: column;
+      flex-wrap: unset;
+      padding: 1rem 0 1rem 0;
+   }
+}

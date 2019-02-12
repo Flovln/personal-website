@@ -1,0 +1,43 @@
+.project-wrapper {
+   margin-bottom: 2.1rem;
+}
+
+.project-wrapper a {
+   text-decoration: none;
+   color: black;
+   position: relative;   
+}
+
+.project-wrapper a::before {
+   background-color: #000;
+   bottom: 1;
+   content: '';
+   height: 2px;
+   left: 0;
+   position: absolute;
+   visibility: hidden;
+   -webkit-transform: scaleX(0);
+   transform: scaleX(0);
+   -webkit-transition: all 0.3s ease-in-out 0s;
+   transition: all 0.3s ease-in-out 0s;
+   width: 100%;
+}
+
+.project-wrapper a:hover::before {
+   visibility: visible;
+   -webkit-transform: scaleX(1);
+   transform: scaleX(1);
+}
+
+.project-wrapper ul {
+   color: #757575;
+   font-size: 0.8rem;
+   padding-inline-start: 10px;
+   list-style: none;
+}
+
+.project-wrapper li::before {
+   content: "\25AA";
+   color: black;
+   margin-right: 0.5em;
+}

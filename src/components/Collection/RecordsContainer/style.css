@@ -1,0 +1,21 @@
+.records-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: 4rem 8vw 0 8vw;   
+   padding: 1rem;
+}
+
+.records-placeholder {
+   display: flex;
+   justify-content: center;
+   margin-top: 20vh;
+   min-height: 85vh;
+}
+
+@media all and (max-width: 500px) {
+   .records-container {
+      margin: 1.5rem;
+      padding: 0;
+   }
+}

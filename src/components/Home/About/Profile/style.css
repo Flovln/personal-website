@@ -1,0 +1,14 @@
+.profile-me {
+   font-size: 3rem;
+   font-weight: 400;
+   margin: 0;
+   font-family: sans-serif;
+}
+
+.profile-title {
+   margin: 0 0 0.5em 0;
+}
+
+.profile-last-name {
+   color: rgb(222, 145, 43);
+}

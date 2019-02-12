@@ -1,0 +1,16 @@
+.collection-return {
+   margin-left: 11vw;
+}
+
+.collection-return p {
+   color: black;
+}
+
+.collection-title h1 {
+   font-weight: 700;
+}
+
+.collection-title {
+   display: flex;
+   justify-content: center;
+}

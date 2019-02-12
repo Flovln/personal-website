@@ -1,0 +1,9 @@
+.app {
+   background: white;
+   color: black;
+   display: flex;
+   font-family: 'Roboto Mono', monospace;
+   flex-direction: column;
+   max-width: 1500px;
+   margin: auto;
+}

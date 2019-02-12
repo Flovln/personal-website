@@ -1,0 +1,12 @@
+.skills ul {
+   color: #757575;
+   font-size: 0.9rem;
+   list-style: none;
+   padding-inline-start: 10px;
+}
+
+.skills li::before {
+   content: "\25AA";
+   color: black;
+   margin-right: 0.5em;
+}

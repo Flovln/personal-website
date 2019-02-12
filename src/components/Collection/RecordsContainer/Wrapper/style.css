@@ -1,0 +1,20 @@
+.record-wrapper {
+   display: flex;
+   padding: 0 0.2em 0.2em 0em;
+}
+
+.record-cover {
+   height: 13vw;
+   width: 13vw;
+   min-height: 120px;
+   min-width: 120px;
+   max-height: 190px;
+   max-width: 190px;
+}
+
+@media all and (max-width: 500px) {
+   .record-cover {
+      min-height: 80px;
+      min-width: 80px;
+   }
+}

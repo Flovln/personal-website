@@ -1,0 +1,12 @@
+.social-logo {
+   margin-right: 0.6rem;
+}
+
+.social-logo-img {
+   height: 1.7rem;
+   width: 1.7rem;
+}
+
+.social-logo-img:hover {
+   opacity: 0.5;
+}
