@@ -1,22 +1,38 @@
 .collection-link {
    text-decoration: none;
+   display: flex;
+   align-items: center;
+}
+
+.collection-link-pointer {
+   color: black;
+   padding: 0 0.3rem 0 0.3rem;
 }
 
 .collection-link p {
-   background-image: linear-gradient(to left,
-   transparent,
-   transparent 45%,
-   white 55%,
-   rgb(222, 145, 43));
-   background-position: 100% 0;
-   background-size: 200% 100%;
    color: black;
-   display: block;
-   transition: all .30s ease-in;
+   position: relative;
+   padding: 0;
+   margin: 0;
 }
 
-.collection-link p:hover {
-   background-position: 0 0;
-   color:white;
-   text-decoration: underline;
+.collection-link p::before {
+   background-color: #000;
+   bottom: 0;
+   content: "";
+   height: 2px;
+   left: 0;
+   position: absolute;
+   -webkit-transform: scaleX(0);
+   transform: scaleX(0);
+   -webkit-transition: all 0.3s ease-in-out 0s;
+   transition: all 0.3s ease-in-out 0s;
+   visibility: hidden;
+   width: 100%;
+}
+
+.collection-link p:hover::before {
+   visibility: visible;
+   -webkit-transform: scaleX(1);
+   transform: scaleX(1);
 }

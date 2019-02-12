@@ -15,8 +15,11 @@ class Interests extends Component {
                {content.body}
             </p>
             <Link to='/collection' className="collection-link">
+               <div className="collection-link-pointer">
+                  &#x3e; 
+               </div>
                <p>
-                  &#x3e; {content.visit}
+                  {content.visit}
                </p>
             </Link>
             <MyMixes />
