@@ -1,0 +1,4 @@
+export const ABOUT_INTRO = "Hello! I am a software development student in his final year at Ecole 42 in Paris, France."
+export const ABOUT_PRO = "Passionate about programming and the web, I love to create things. Over the past three years I have spent at 42, a school where you learn to learn, I have had the opportunity to work on many interesting projects, ranging from school projects to real enterprise web applications of various scale and complexity using the latest technologies."
+export const ABOUT_HOB = "Curious about the  world I live in, I try as much as I can to go out of the beaten tracks and explore different sides of our beautiful planet through backpacking. Music and photography are also a big part of my life."
+export const ABOUT_MOTO = "This site exists to allow me to experiment with different web technologies, and so parts of it might be left as work in progress. That’s part of the fun of a personal site!"

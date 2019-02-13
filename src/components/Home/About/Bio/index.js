@@ -1,23 +1,28 @@
 import React, { Component } from 'react';
 
 import './style.css';
-import content from './content';
+import {
+   ABOUT_INTRO,
+   ABOUT_PRO,
+   ABOUT_HOB,
+   ABOUT_MOTO
+} from './constants';
 
 class Bio extends Component {
    render() {
       return (
          <div className="bio-container">
             <p className="bio-paragraph-first">
-               {content.about}
+               {ABOUT_INTRO}
                <br />
-               {content.about2}
+               {ABOUT_PRO}
                <br />
             </p>
             <p className="bio-paragraph-second">
-               {content.about3}
+               {ABOUT_HOB}
             </p>
             <p className="bio-paragraph-third">
-               {content.about4}
+               {ABOUT_MOTO}
             </p>
          </div>
       )

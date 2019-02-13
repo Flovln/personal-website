@@ -1,0 +1,6 @@
+export const GITHUB = "Github"
+export const GITHUB_LOGO = "https://i.postimg.cc/6pPVSk2x/Git-Hub-Mark-120px-plus.png"
+export const GITHUB_LINK = "https://github.com/Flovln"
+export const LINKEDIN = "LinkedIn"
+export const LINKEDIN_LOGO = "https://i.postimg.cc/C1kQwcsr/In-Black-128px-TM.png"
+export const LINKEDIN_LINK = "https://www.linkedin.com/in/florent-violin"

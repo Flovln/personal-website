@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
 
-import {
-   firstName,
-   lastName,
-   title
-} from './constants';
 import './style.css';
+import {
+   FIRST_NAME,
+   LAST_NAME,
+   TITLE
+} from './constants.js';
 
 class Profile extends Component {
    render() {
       return (
          <div>
             <h1 className="profile-me">
-               {firstName}
+               {FIRST_NAME}
                <span className="profile-last-name">
-                  {lastName}
+                  {LAST_NAME}
                </span>
             </h1>
-            <h1 className="profile-title">{title}</h1>
+            <h1 className="profile-title">{TITLE}</h1>
          </div>
       )
    };
