@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 
-import {
-   title,
-   list
-} from './constants';
 import './style.css';
+import {
+   TITLE,
+   SKILLS
+} from './constants';
 
 class Skills extends Component {
    render() {
       return (
          <div className="column skills">
-            <h1>{title}</h1>
+            <h1>{TITLE}</h1>
             <ul>
             {
-               list.map(e => <li key={e}>{e}</li>)
+               SKILLS.map(e => <li key={e}>{e}</li>)
             }
             </ul>
          </div>

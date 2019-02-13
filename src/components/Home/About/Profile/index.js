@@ -5,7 +5,7 @@ import {
    FIRST_NAME,
    LAST_NAME,
    TITLE
-} from './constants.js';
+} from './constants';
 
 class Profile extends Component {
    render() {

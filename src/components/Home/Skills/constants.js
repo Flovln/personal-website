@@ -1,5 +1,5 @@
-export const title = "Skills"
-export const list  = [
+export const TITLE = "Skills"
+export const SKILLS  = [
    "C",
    "C++",
    "OCaml",
