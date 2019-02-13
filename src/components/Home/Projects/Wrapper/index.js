@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 
 import './style.css';
-import content from './content';
+import {
+   CONCEPTS,
+   TECHNOLOGIES
+} from './constants';
 
 class Wrapper extends Component {
    render() {
@@ -32,13 +35,13 @@ class Wrapper extends Component {
             <p>
                {description}
             </p>
-            <h3>{content.technologies}</h3>
+            <h3>{TECHNOLOGIES}</h3>
             <ul>
                {
                   technos.map(e => <li key={e}>{ e }</li>)
                }
             </ul>
-            <h3>{content.concepts}</h3>
+            <h3>{CONCEPTS}</h3>
             <ul>
                {
                   concepts.map(e => <li key={e}>{e}</li>)

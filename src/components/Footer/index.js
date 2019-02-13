@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 
 import './style.css';
+import {
+   PROPERTIES
+} from './constants';
 
 class Footer extends Component {
    render() {
       return (
          <footer className="footer">
-            ©2019 fviolin
+            {PROPERTIES}
          </footer>
       )
    }

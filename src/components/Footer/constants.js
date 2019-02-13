@@ -1,0 +1,1 @@
+export const PROPERTIES = "©2019 fviolin"
